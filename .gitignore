@@ -1,0 +1,10 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+
+# Node modules
+node_modules/
+*.received.txt
+key-*.xml

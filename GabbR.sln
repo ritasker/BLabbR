@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GabbR", "GabbR\GabbR.csproj", "{089B3686-BDF7-4B7F-8B67-EC1EE808FCAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{089B3686-BDF7-4B7F-8B67-EC1EE808FCAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089B3686-BDF7-4B7F-8B67-EC1EE808FCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089B3686-BDF7-4B7F-8B67-EC1EE808FCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089B3686-BDF7-4B7F-8B67-EC1EE808FCAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
