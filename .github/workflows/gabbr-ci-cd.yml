@@ -1,39 +1,19 @@
 name: gabbr\ci-cd
 
 on:
-  workflow_dispatch:
   push:
     branches: main
-    paths: 
-      - .github/workflows/helix-ci-cd.yml
-      - src/GabbR/**
-  pull_request: 
-    paths:
-      - .github/workflows/helix-ci-cd.yml
-      - src/GabbR/**
       
-  defaults:
-    run:
-      working-directory: src/GabbR
-      
-  jobs:
-    build:
-      name: Build
-      runs-on:
-        group: GabbR
-        labels: ubuntu-latest-16
-      timeout-minutes: 15
-      
-  - name: Checkout
-    uses: actions/checkout@v4
+jobs:
+  build:
 
-  - name: Get ShortSHA
-    run: echo "CI_COMMIT_SHORT_SHA=${GITHUB_SHA::8}" >> $GITHUB_ENV
+    runs-on: ubuntu-latest
 
-  - name: Setup .NET
-    uses: actions/setup-dotnet@v4
-    with:
-      dotnet-version: 8.*
-
-  - name: Build
-    run: dotnet run --project build -c Release
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 8.0.x
+    - name: Build
+      run: dotnet run --project build -c Release
