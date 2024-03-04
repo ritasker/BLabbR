@@ -3,7 +3,7 @@ name: gabbr\ci-cd
 on:
   push:
     branches: main
-      
+    
 jobs:
   build:
 
@@ -16,4 +16,4 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Build
-      run: dotnet run --project build -c Release
+      run: dotnet run --project src/Build -c Release
