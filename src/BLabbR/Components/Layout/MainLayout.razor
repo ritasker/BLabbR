@@ -1,5 +1,14 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="page">
-    @Body
+<div class="flex items-center">
+    <div class="flex-row bg-neutral">
+        @Body
+    </div>
+    <div class="flex-row bg-accent">
+        <div class="contents">
+            <i class="flex-1 fa-solid fa-terminal"></i>
+            <input class="input flex-1 text" value="/rooms list"/>
+            <i class="fa-solid fa-delete-left"></i>
+        </div>
+    </div>
 </div>
