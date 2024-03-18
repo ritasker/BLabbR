@@ -6,7 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
-    <Target Name="Tailwind" BeforeTargets="Build">
+    <Target Name="NPM" BeforeTargets="Build">
+        <Exec Command="npm install"/>
         <Exec Command="npm run css:build"/>
     </Target>
 
