@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GabbR", "src\GabbR\GabbR.csproj", "{089B3686-BDF7-4B7F-8B67-EC1EE808FCAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLabbR", "src\BLabbR\BLabbR.csproj", "{089B3686-BDF7-4B7F-8B67-EC1EE808FCAC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Build", "src\Build\Build.csproj", "{964433FE-6C90-4604-B8A7-AB3ADA120319}"
 EndProject

@@ -1,4 +1,4 @@
-using GabbR.Components;
+using BLabbR.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 

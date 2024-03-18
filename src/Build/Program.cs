@@ -15,7 +15,7 @@ Target(
     "build",
     new[]
     {
-        Path.Join(srcDir.ToString(), "GabbR")
+        Path.Join(srcDir.ToString(), "BLabbR")
     },
     async projectPath => { await run("dotnet", $"build {projectPath} -c Release"); }
 );

@@ -35,7 +35,7 @@ public static class Helpers {
         return Run;
     }
 
-    public static DirectoryInfo GetSubDirectory(this DirectoryInfo directoryInfo, string subDirectoryName)
+    public static DirectoryInfo GetSubDirectory(this DirectoryInfo? directoryInfo, string subDirectoryName)
     {
         var subdirectory = Path.Combine(directoryInfo.FullName, subDirectoryName);
         return new DirectoryInfo(subdirectory);
