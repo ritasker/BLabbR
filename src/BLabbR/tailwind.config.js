@@ -1,7 +1,6 @@
 module.exports = {
   content: [
-    './Components/Pages/**/*.razor',
-    './Components/Layout/**/*.razor'
+    './**/*.razor'
   ],
   theme: {
     extend: {},

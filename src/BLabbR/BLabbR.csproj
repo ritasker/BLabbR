@@ -6,9 +6,4 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
-    <Target Name="NPM" BeforeTargets="Build">
-        <Exec Command="npm install"/>
-        <Exec Command="npm run css:build"/>
-    </Target>
-
 </Project>
