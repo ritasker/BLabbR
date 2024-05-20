@@ -8,4 +8,4 @@ riderModule.iml
 node_modules/
 *.received.txt
 key-*.xml
-/src/BLabbR/wwwroot/css/output.css
+/**/output.css
