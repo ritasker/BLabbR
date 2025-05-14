@@ -17,7 +17,7 @@ public static class Helpers {
                     }
                 );
             })
-            .CreateLogger("Build");
+            .CreateLogger("BLabbR.Build");
 
     public static Func<string, string, Task<CommandResult>> GetCliRunner()
     {

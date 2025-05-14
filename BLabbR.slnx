@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="BLabbR.Pulumi\BLabbR.Pulumi.csproj" Type="Classic C#" />
     <Project Path="src/BLabbR/BLabbR.csproj" />
-    <Project Path="src/Build/Build.csproj" />
+    <Project Path="src\BLabbR.Build\BLabbR.Build.csproj" />
   </Folder>
 </Solution>
