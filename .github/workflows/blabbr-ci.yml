@@ -1,4 +1,4 @@
-name: gabbr\ci-cd
+name: blabbr\ci-cd
 
 on:
   push:
